@@ -76,12 +76,12 @@ export default function Home() {
 
   return (
     <div className="home-wrapper">
-      {/* <audio
+      <audio
         src="/sound/beautiful_in_white.mp3"
         autoPlay={true}
         ref={audioRef}
         loop={true}
-      /> */}
+      />
 
       <Head>
         <meta property="og:title" content="Nunik & Ozi" />
@@ -90,15 +90,6 @@ export default function Home() {
         <meta name="description" content="The Wedding of Nunik & Ozi" />
         <meta property="og:description" content="The Wedding of Nunik & Ozi" />
         <meta name="twitter:description" content="The Wedding of Nunik & Ozi" />
-
-        <meta
-          property="og:image"
-          content="https://kharisma-rizky.vercel.app/asset/cover-undangan-cropped.jpg"
-        />
-        <meta
-          name="twitter:image"
-          content="https://kharisma-rizky.vercel.app/asset/cover-undangan-cropped.jpg"
-        />
 
         <link rel="icon" href="/asset/bouquet.png" />
 
@@ -129,7 +120,7 @@ export default function Home() {
 
         <Ucapan />
 
-        {/* <Gallery /> */}
+        <Gallery />
 
         <Footer />
 

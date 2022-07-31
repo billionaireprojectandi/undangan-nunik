@@ -5,20 +5,14 @@ import ModalGallery from "./modalGallery";
 
 function Gallery() {
   const images = [
-    // {
-    //   image: "gambar_1.JPG",
-    // },
     {
-      image: "gambar_3.JPG",
+      image: "gambar_1.jpeg",
     },
     {
-      image: "gambar_4.JPG",
+      image: "gambar_2.jpeg",
     },
     {
-      image: "gambar_5.JPG",
-    },
-    {
-      image: "gambar_2.JPG",
+      image: "gambar_3.jpeg",
     },
   ];
 
@@ -151,13 +145,13 @@ function Gallery() {
           width: 7.8rem;
           // overflow: hidden;
           // margin: 0 0.5rem;
-          border: 1px solid violet;
+          // border: 1px solid violet;
           overflow: hidden;
         }
 
         .thumbnail > img {
           z-index: 50;
-          // border-radius: 0.25rem;
+          border-radius: 0.25rem;
           display: block;
           width: 100%;
           height: auto;

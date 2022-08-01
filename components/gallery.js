@@ -14,6 +14,9 @@ function Gallery() {
     {
       image: "gambar_3.jpeg",
     },
+    {
+      image: "gambar_4.jpeg",
+    },
   ];
 
   const [imageState, setImageState] = useState({

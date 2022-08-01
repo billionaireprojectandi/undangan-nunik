@@ -17,7 +17,7 @@ function WelcomePage(props) {
             <h2>&</h2>
           </div>
           <div className="initial" data-aos="fade-left" data-aos-delay="500">
-            <h2>Ozi</h2>
+            <h2>Ozzy</h2>
           </div>
         </div>
         <div
